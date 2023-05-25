@@ -1,0 +1,28 @@
+.statistics{
+    font-size: large;
+    }
+    
+    .title{
+        font-size: large;
+    
+    }
+    
+    .stat_list{
+        font-size: large;
+    
+    
+    }
+    
+    .item{
+display: flex;
+flex-direction: column;    
+    }
+    
+    .label{
+font-size: 16px;    
+    }
+    
+    .percentage{
+        font-size: large;
+    
+    }

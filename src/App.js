@@ -1,9 +1,13 @@
 import './App.css';
 import Profile from './components/Profile/Profile'
 import Statistics from './components/Statistics/Statistics'
+import FriendList from './components/FriendList/FriendList'
 import user from './utilits/user.json'
 import data from './utilits/data.json'
+import friends from './utilits/friends.json' 
 
+
+console.log(user)
 console.log(data)
 
 function App() {
@@ -16,7 +20,8 @@ function App() {
   avatar={user.avatar}
   stats={user.stats}
 />
-<Statistics />
+<Statistics title="Upload stats" stats={data}/>
+<FriendList friends={friends}/>
     </div>
   );
 }
