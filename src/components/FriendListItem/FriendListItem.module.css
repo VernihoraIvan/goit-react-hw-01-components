@@ -1,0 +1,38 @@
+.item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.status{
+    font-weight: 400;
+
+}
+
+.avatar{
+    font-weight: 400;
+
+}
+
+.name{
+font-weight: 400;
+}
+.statusOnline {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  .statusOffline {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  
+ 
