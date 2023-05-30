@@ -4,14 +4,11 @@ import Statistics from './components/Statistics/Statistics'
 import FriendList from './components/FriendList/FriendList'
 import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 
-import user from './utilits/user.json'
-import data from './utilits/data.json'
-import friends from './utilits/friends.json' 
-import transactions from './utilits/transactions.json'
-
-
-console.log(user)
-console.log(data)
+import user from '././components/data/user.json'
+import data from '././components/data/data.json'
+import friends from '././components/data/friends.json' 
+import transactions from '././components/data/transactions.json'
+ 
 
 function App() {
   return (
